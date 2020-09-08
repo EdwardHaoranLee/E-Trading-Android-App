@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/recyclerview_bg"
+tools:context=".activities.PendingRequestActivity">
+
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/pendingView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:paddingHorizontal="20dp"
+    android:paddingTop="100dp"
+    android:paddingBottom="10dp"
+    android:scrollbars="vertical" />
+
+<Button
+    android:id="@+id/button_Pending_Request_Back"
+    style="@style/Widget.AppCompat.Button.Borderless"
+    android:layout_width="25dp"
+    android:layout_height="25dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="24dp"
+    android:layout_marginEnd="365dp"
+    android:layout_marginRight="365dp"
+    android:layout_marginBottom="681dp"
+    android:background="@drawable/backward_arrow"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.07"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.035" />
+
+<TextView
+    android:layout_width="249dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="115dp"
+    android:layout_marginLeft="115dp"
+    android:layout_marginTop="24dp"
+    android:layout_marginEnd="115dp"
+    android:layout_marginRight="115dp"
+    android:layout_marginBottom="622dp"
+    android:fontFamily="@font/bebasneue"
+    android:gravity="center"
+    android:text="PENDING REQUESTS"
+    android:textColor="@color/off_white"
+    android:textSize="30sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.036" />
+
+
+</RelativeLayout>

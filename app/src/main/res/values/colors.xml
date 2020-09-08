@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="MildGreen">#C6EA7E</color>
+    <color name="MildOrange">#FFB770</color>
+    <color name="MildPink">#FF626D</color>
+    <color name="TenderBlue">#576BE3</color>
+    <color name="LightGreen">#4DD9B0</color>
+    <color name="off_white">#FFF</color>
+    <color name="space_black">#000</color>
+    <color name="PunkPink">#FA5C7E</color>
+    <color name="WashedPink">#B65EBA</color>
+    <color name="MellowPurple">#7366FF</color>
+    <color name="EnergyYellow">#F1C05C</color>
+    <color name="CalmOrange">#EEA152</color>
+    <color name="LemonYellow">#65C79C</color>
+    <color name="LemonGreen">#59B75B</color>
+</resources>

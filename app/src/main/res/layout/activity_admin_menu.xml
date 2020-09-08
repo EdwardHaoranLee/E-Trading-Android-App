@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/admin_menu_bg"
+    tools:context=".activities.AdminMenuActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/left_guide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="24dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/right_guide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="24dp" />
+
+
+    <Button
+        android:id="@+id/button_View_Suspicious"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="240dp"
+        android:layout_height="75dp"
+        android:backgroundTint="#00FFFFFF"
+        android:drawableLeft="@drawable/question_icon"
+        android:ems="10"
+        android:fontFamily="@font/bebasneue"
+        android:text="@string/view_suspicous_users"
+        android:textColor="@color/off_white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/right_guide"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/left_guide"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.233" />
+
+    <Button
+        android:id="@+id/button_Freeze_Unfreeze"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="240dp"
+        android:layout_height="75dp"
+        android:backgroundTint="#00FFFFFF"
+        android:drawableLeft="@drawable/group_icon"
+        android:ems="10"
+        android:fontFamily="@font/bebasneue"
+        android:text="UNFREEZE USERS"
+        android:textColor="@color/off_white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/right_guide"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/left_guide"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.365" />
+
+    <Button
+        android:id="@+id/button_Approve_Requests"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="240dp"
+        android:layout_height="75dp"
+        android:backgroundTint="#00FFFFFF"
+        android:drawableLeft="@drawable/done_all_icon"
+        android:ems="10"
+        android:fontFamily="@font/bebasneue"
+        android:text="@string/approve_new_item_requests"
+        android:textColor="@color/off_white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/right_guide"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/left_guide"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_Undo"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="240dp"
+        android:layout_height="75dp"
+        android:backgroundTint="#00FFFFFF"
+        android:drawableLeft="@drawable/undo_icon"
+        android:ems="10"
+        android:fontFamily="@font/bebasneue"
+        android:text="UNDO ACTIONS"
+        android:textColor="@color/off_white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/right_guide"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/left_guide"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.634" />
+
+    <Button
+        android:id="@+id/button_Admin_Settings"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="@drawable/settings_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

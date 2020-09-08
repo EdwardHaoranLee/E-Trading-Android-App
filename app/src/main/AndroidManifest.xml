@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.phase2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/launcher_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/launcher_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.FreezeUnfreezeNewUpdate" />
+        <activity android:name=".activities.RequestUnfreezeSubmissionForm" />
+        <activity android:name=".activities.UndoActivity" />
+        <activity android:name=".activities.SendUnfreezeRequestActivity" />
+        <activity android:name=".activities.ChangeThresholdActivity" />
+        <activity android:name=".activities.AdViewSuspiciousActivity" />
+        <activity android:name=".activities.AdminUserAddingActivity" />
+        <activity android:name=".activities.ConfirmTransactionActivity" />
+        <activity android:name=".activities.DemoConfirmTransactionActivity" />
+        <activity android:name=".activities.EditRequestTwoItemDetailActivity" />
+        <activity android:name=".activities.VacationModeActivity" />
+        <activity android:name=".activities.TwoWayChooseItemActivity" />
+        <activity android:name=".activities.OneWayTradeActivity" />
+        <activity android:name=".activities.TwoWayTradeActivity" />
+        <activity android:name=".activities.MarketItemClickedActivity" />
+        <activity android:name=".activities.PendingRequestActivity" />
+        <activity android:name=".activities.DemoPendingRequestActivity" />
+        <activity android:name=".activities.RegularEditRequestOneWayActivity" />
+        <activity android:name=".activities.RegularEditRequestTwoWayActivity" />
+        <activity
+            android:name=".activities.ViewMarketActivity"
+            android:label="@string/title_activity_view_market"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.DemoViewMarketActivity"
+            android:label="@string/title_activity_view_market"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activities.RequestSentActivity" />
+        <activity android:name=".activities.AdApproveItemActivity" />
+        <activity android:name=".activities.EnterUserItemRequestActivity" />
+        <activity android:name=".activities.ToApproveItemActivity" />
+        <activity android:name=".activities.RequestAddingItemActivity" />
+        <activity android:name=".activities.DemoRequestAddingItemActivity" />
+        <activity android:name=".activities.AddItemToLendActivity" />
+        <activity android:name=".activities.ExpandWishToLendActivity" />
+        <activity android:name=".activities.AdChangePassActivity" />
+        <activity android:name=".activities.AdminSettingsActivity" />
+        <activity android:name=".activities.ReAccountInfoActivity" />
+        <activity android:name=".activities.DemoAccountInfoActivity" />
+        <activity android:name=".activities.ReChangePassActivity" />
+        <activity android:name=".activities.RegularSettingsActivity" />
+        <activity android:name=".activities.DemoSettingsActivity" />
+        <activity android:name=".activities.AdminMenuActivity" />
+        <activity android:name=".activities.RegularMenuActivity" />
+        <activity android:name=".activities.SignUpActivity" />
+        <activity android:name=".activities.DemoMenuActivity" />
+        <activity android:name=".activities.DemoExpandWishToLendActivity" />
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+    </application>
+
+</manifest>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/account_status"
+        android:title="Account Status"/>
+
+    <item
+        android:id="@+id/trading_status"
+        android:title="Trading Status"/>
+
+    <item
+        android:id="@+id/favorite_partners"
+        android:title="Favorite Partners"/>
+
+    <item
+        android:id="@+id/recent_trades"
+        android:title="Recent Traded Items"/>
+
+</menu>

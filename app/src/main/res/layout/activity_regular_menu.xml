@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/regular_menu_bg"
+    tools:context=".activities.MainActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/left_guide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="24dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/right_guide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="24dp" />
+
+
+    <Button
+        android:id="@+id/button_Expand"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="232dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#00FFFFFF"
+        android:drawableLeft="@drawable/import_export_icon"
+        android:ems="10"
+        android:fontFamily="@font/bebasneue"
+        android:text="@string/expand_wish_to_lend"
+        android:textColor="@color/off_white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/right_guide"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/left_guide"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.251" />
+
+    <Button
+        android:id="@+id/button_Request_Adding"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="232dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#00FFFFFF"
+        android:drawableLeft="@drawable/add_icon"
+        android:ems="10"
+        android:fontFamily="@font/bebasneue"
+        android:text="@string/REQUEST_ADDING_ITEM"
+        android:textColor="@color/off_white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/right_guide"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="@+id/left_guide"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.377" />
+
+    <Button
+        android:id="@+id/button_Confirm_Transaction"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="232dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#00FFFFFF"
+        android:drawableLeft="@drawable/done_all_icon"
+        android:ems="10"
+        android:fontFamily="@font/bebasneue"
+        android:text="@string/confirm_transactions"
+        android:textColor="@color/off_white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/right_guide"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/left_guide"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Button
+        android:id="@+id/button_View_Market"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="232dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#00FFFFFF"
+        android:drawableLeft="@drawable/shopping_cart_icon"
+        android:ems="10"
+        android:fontFamily="@font/bebasneue"
+        android:text="@string/view_market"
+        android:textColor="@color/off_white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/right_guide"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/left_guide"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.625" />
+
+    <Button
+        android:id="@+id/button_Pending_Request"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="232dp"
+        android:layout_height="60dp"
+        android:autofillHints="@string/username"
+        android:backgroundTint="#00FFFFFF"
+        android:drawableLeft="@drawable/forum_icon"
+        android:ems="10"
+        android:fontFamily="@font/bebasneue"
+        android:text="@string/pending_request"
+        android:textColor="@color/off_white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/right_guide"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/left_guide"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.749" />
+
+    <Button
+        android:id="@+id/button_Regular_Settings"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="@drawable/settings_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035" />
+
+    <Button
+        android:id="@+id/button_Regular_Account_Info"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="@drawable/account_circle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
