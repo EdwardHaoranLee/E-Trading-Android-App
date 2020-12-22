@@ -9,3 +9,5 @@ Within this project, we utilized a wide range of deisgn patterns and diverse pro
 - Admin accounts can be created which is used to manage the disputes among regular users.
 
 For a demo video, please click the following image.
+
+[![Demo](https://img.youtube.com/vi/0V7HpEMeDF8/0.jpg)](https://www.youtube.com/watch?v=0V7HpEMeDF8)
